@@ -9,10 +9,21 @@ function preload() {
     tomImg1 = loadImage("cat1.png");
     tomRunning = loadAnimation("cat2.png","cat3.png");
     tomStopped = loadImage("cat4.png");
+    tomImg1.scale = 0.6;
+    tomRunning.scale = 0.6;
+    tomStopped.scale = 0.6;
+
+
+
 
     jerryImg1 = loadImage("mouse1.png");
     jerryHappy = loadAnimation("mouse2.png","mouse3.png");
     jerryStopped = loadImage("mouse4.png");
+    jerryImg1.scale = 0.34;
+    jerryHappy.scale = 0.34;
+    jerryStopped.scale = 0.34;
+
+
 }
 
 function setup(){
